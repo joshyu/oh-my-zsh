@@ -12,4 +12,4 @@ PROMPT='%(?, ,%{$fg[red]%}FAIL: $?%{$reset_color%}
 %{$fg[magenta]%}%n%{$reset_color%}@%{$fg[yellow]%}%m%{$reset_color%}: %{$fg_bold[blue]%}%~%{$reset_color%}$(git_prompt_info)
 %_$(prompt_char) '
 
-RPROMPT='%{$fg[green]%}[%*]%{$reset_color%}'
+#RPROMPT='%{$fg[green]%}[%*]%{$reset_color%}'

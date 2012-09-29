@@ -15,3 +15,7 @@ function take() {
   cd $1
 }
 
+# jianbing.org on DNS
+function dic {
+  dig "$*.jianbing.org" +short txt | perl -pe's/\\(\d{1,3})/chr $1/eg; s/(^"|"$)//g'
+}

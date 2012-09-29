@@ -8,6 +8,7 @@
 # http://sam.zoy.org/wtfpl/COPYING for more details.
 
 THEMES_DIR="$ZSH/themes"
+echo $THEMES_DIR
 FAVLIST="${HOME}/.zsh_favlist"
 source $ZSH/oh-my-zsh.sh
 
